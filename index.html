@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Git & GitHub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">GG</div>
+        <div>
+          <div style="font-weight:700;font-size:16px">Git & GitHub</div>
+          <div style="font-size:12px;color:rgba(230,238,248,0.6)">Version Control Simplified</div>
+        </div>
+      </div>
+      <nav>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#workflow">Workflow</a>
+        <a class="nav-link" href="#">About</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="hero-card">
+        <h1>Master the Power of Git & GitHub 💻</h1>
+        <p class="lead">Git is your time machine for code, while GitHub is the home where collaboration happens. Together, they make building, tracking, and sharing code effortless.</p>
+
+        <div class="cta-row">
+          <button class="btn btn-primary">Start Versioning</button>
+          <button class="btn btn-ghost">View Repository</button>
+        </div>
+
+        <div class="panel-stack">
+          <div class="panel">
+            <small>Git</small>
+            <h3>Track Changes</h3>
+            <p>Record every modification, revert mistakes, and explore project history efficiently.</p>
+          </div>
+          <div class="panel">
+            <small>GitHub</small>
+            <h3>Collaborate Globally</h3>
+            <p>Host repositories, manage branches, and contribute to open-source projects easily.</p>
+          </div>
+          <div class="panel">
+            <small>Integration</small>
+            <h3>Work Smarter</h3>
+            <p>Connect Git with CI/CD pipelines, IDEs, and workflows for seamless development.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="neon-art">
+        <div class="neon-glow"></div>
+        <div class="robot">
+          <!-- Terminal-like SVG -->
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="10" width="48" height="44" rx="4" fill="#081826" stroke="#4fa6ff" stroke-opacity="0.25" stroke-width="0.8"/>
+            <path d="M16 24 L24 32 L16 40" stroke="#7c5cff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <line x1="30" y1="40" x2="44" y2="40" stroke="#6ee7f2" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </aside>
+    </main>
+
+    <section id="features" class="features">
+      <div class="feature">
+        <div class="icon">C</div>
+        <div>
+          <h4>Commit History</h4>
+          <p>Save snapshots of your progress — every commit tells the story of your project’s evolution.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">B</div>
+        <div>
+          <h4>Branching</h4>
+          <p>Experiment fearlessly. Create branches to test new ideas without breaking main code.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">P</div>
+        <div>
+          <h4>Pull Requests</h4>
+          <p>Review, discuss, and merge code efficiently — collaboration made transparent and fun.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">R</div>
+        <div>
+          <h4>Repositories</h4>
+          <p>Organize your codebases in one place. Public or private — your choice, your control.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="features">
+      <div class="feature">
+        <div class="icon">1</div>
+        <div>
+          <h4>Initialize</h4>
+          <p>Use <code>git init</code> to start tracking files. Every project begins here.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">2</div>
+        <div>
+          <h4>Commit</h4>
+          <p>Use <code>git add .</code> and <code>git commit -m \"message\"</code> to save progress.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">3</div>
+        <div>
+          <h4>Push</h4>
+          <p>Run <code>git push origin main</code> to publish your work to GitHub.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon">4</div>
+        <div>
+          <h4>Collaborate</h4>
+          <p>Fork repositories, open pull requests, and build amazing projects together.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="muted">Built with ⚙️ by CUR Brain</div>
+      <div class="muted">Learn. Build. Contribute.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('keydown', e => {
+      if(e.key.toLowerCase() === 'g'){
+        alert('🚀 You pressed G — Ready to Git started?');
+      }
+    });
+  </script>
+</body>
+</html>
